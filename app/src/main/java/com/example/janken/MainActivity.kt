@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        //それぞれの手のボタンを押されると、idを次の画面に受け渡す
         gu.setOnClickListener { onJanekenButtonTapped(it)}
         choki.setOnClickListener{ onJanekenButtonTapped(it)}
         pa.setOnClickListener{ onJanekenButtonTapped(it)}
